@@ -37,7 +37,8 @@ public class MaiorNumeroArray {
         
         String dadosArray = Arrays.toString(array);
         System.out.println("Os arrays inseridos foram: " + dadosArray);
-
+        
+        System.out.println("----------------------------------------------");
         System.out.println("O maior número do array é: " + MaiorValor(array));
 
         scanner.close();
