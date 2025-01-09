@@ -29,7 +29,9 @@ public class ConversorTemperatura {
         
         while(sair == 0){
             
-            System.out.println("Escolha (C)Celsius para Fahrenheit / (F)Fahrenheit para Celsius Sair(S): ");
+            System.out.println("Escolha (C) Celsius para Fahrenheit: ");
+            System.out.println("Escolha (F) Fahrenheit para Celsius: ");
+            System.out.println("Escolha (S) para Sair: ");
             char opcao = scanner.next().toUpperCase().charAt(0);
 
             
@@ -37,13 +39,13 @@ public class ConversorTemperatura {
                 
                 double temperatura = insiratemperatura();
 
-                System.out.println("A temperatura " + temperatura + " em Celsius : " + converterCelsius(temperatura));
+                System.out.println("A temperatura " + temperatura + "C em Fahrenheit : " + converterCelsius(temperatura)+"F");
 
             }
             else if (opcao == 'F'){
                           
                 double temperatura = insiratemperatura();
-                System.out.println("A temperatura " + temperatura + " em Fahrenheit : " + converterFahrenheit(temperatura));
+                System.out.println("A temperatura " + temperatura + "F em Celsius : " + converterFahrenheit(temperatura) + "C");
 
             }
 
