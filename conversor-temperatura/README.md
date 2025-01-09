@@ -1,0 +1,1 @@
+Conversor de temperatura de Celsius para Fahrenheit e vice versa com menu de opções.
