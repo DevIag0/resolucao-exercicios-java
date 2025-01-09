@@ -16,4 +16,4 @@ Constraints
 
 Output Format
 
-Print Weird if the number is weird; otherwise, print Not Weird.
+Print Weird if the number is weird; otherwise, print Not Weird..
