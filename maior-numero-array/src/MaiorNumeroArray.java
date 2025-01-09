@@ -1,24 +1,46 @@
+import java.util.Scanner;
+import java.util.Arrays;
+
 public class MaiorNumeroArray {
 
-    public static int [] numerosArray = {7, 8, 20, 770, 30, 50, 77, 506 ,130};
-    public static int maiorNumero = numerosArray[0];
+    private static final Scanner scanner = new Scanner(System.in);
 
-    public static int MaiorValor(int [] numerosArray){
-        for (int i = 0; i < numerosArray.length; i++){
-            if(numerosArray[i] > maiorNumero){
-                maiorNumero = numerosArray[i];
+
+    public static int MaiorValor(int [] array){
+        int maiorNumero = array[0];
+
+        for (int i = 0; i < array.length; i++){
+                
+            if(array[i] > maiorNumero){
+                maiorNumero = array[i];
                 }
                 
         }
         return maiorNumero;
 
-
     }
     public static void main(String[] args) {
-       
-        
 
-            
-            System.out.println(MaiorValor(numerosArray));
+        System.out.println("Digite quantos numeros deseja no array: ");
+        int tamanhoArray = scanner.nextInt();
+        
+        int [] array = new int[tamanhoArray];
+
+
+        for (int i = 0; i < array.length; i++){
+            System.out.println("Digite o " + (i+1) + "º número" + " que deseja inserir no array ");
+            int valoresArray = scanner.nextInt();
+            array[i] = valoresArray;
+        }
+        
+        System.out.println("----------------------------------------------");
+        
+        String dadosArray = Arrays.toString(array);
+        System.out.println("Os arrays inseridos foram: " + dadosArray);
+
+        System.out.println("O maior número do array é: " + MaiorValor(array));
+
+        scanner.close();
     }
+    
 }

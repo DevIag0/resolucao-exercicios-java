@@ -1,1 +1,1 @@
-## Crie uma função que receba um array de inteiros e retorne o maior numero presente no array
+## Crie uma função que você decide quantos elementos tem no array de inteiros, insira os números e retorne o maior numero presente no array
