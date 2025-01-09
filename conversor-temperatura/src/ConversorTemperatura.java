@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class ConversorTemperatura {
-    private static double temperatura;
     
     public static Scanner scanner = new Scanner(System.in);
 
@@ -18,9 +17,8 @@ public class ConversorTemperatura {
 
     public static double insiratemperatura(){
         System.out.println("Agora digite a temperatura: ");
-                temperatura = scanner.nextDouble();
                 
-                return temperatura;
+        return  scanner.nextDouble();
 
     }
 
@@ -37,14 +35,14 @@ public class ConversorTemperatura {
             
             if (opcao == 'C'){
                 
-                insiratemperatura();
+                double temperatura = insiratemperatura();
 
                 System.out.println("A temperatura " + temperatura + " em Celsius : " + converterCelsius(temperatura));
 
             }
             else if (opcao == 'F'){
                           
-                insiratemperatura();
+                double temperatura = insiratemperatura();
                 System.out.println("A temperatura " + temperatura + " em Fahrenheit : " + converterFahrenheit(temperatura));
 
             }
