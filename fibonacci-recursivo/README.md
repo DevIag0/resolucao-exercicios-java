@@ -4,4 +4,4 @@
 
 Seu objetivo é criar uma função que receba um número inteiro n como entrada e retorne um array contendo os n primeiros números da sequência de Fibonacci.
 
-Implemente essa lógica na classe Exercise. A função deve ser chamada gerarFibonacci e deve usar um laço de repetição (for ou while) para gerar a sequência.
+Implemente essa lógica na classe Exercise.
