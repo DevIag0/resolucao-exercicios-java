@@ -20,11 +20,13 @@ public class somaNumerosPares {
     
     public static void main (String[] args) {
         
+        System.out.println("Digite o número inicial da contagem: ");
         int num1 = scanner.nextInt();
         
+        System.out.println("Digite o número final da contagem: ");
         int num2 = scanner.nextInt();
         
-        System.out.println(somarNumerosPares(num1, num2));
+        System.out.println(" A soma dos numeros pares entre "+ num1 + " e " + num2 + " = " + somarNumerosPares(num1, num2));
         
        
         
