@@ -1,18 +1,7 @@
-## Getting Started
+## Neste exercício, você vai praticar o uso de funções recursivas de repetição para calcular os primeiros n números da sequência de Fibonacci. A sequência de Fibonacci começa com 0 e 1, e cada número subsequente é a soma dos dois anteriores. Por exemplo, os primeiros 6 números da sequência são:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+0, 1, 1, 2, 3, 5
 
-## Folder Structure
+Seu objetivo é criar uma função que receba um número inteiro n como entrada e retorne um array contendo os n primeiros números da sequência de Fibonacci.
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Implemente essa lógica na classe Exercise. A função deve ser chamada gerarFibonacci e deve usar um laço de repetição (for ou while) para gerar a sequência.
