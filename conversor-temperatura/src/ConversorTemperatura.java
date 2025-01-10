@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ConversorTemperatura {
     
-    public static Scanner scanner = new Scanner(System.in);
+    public static final Scanner scanner = new Scanner(System.in);
 
 
     public static double converterCelsius(double celsius){

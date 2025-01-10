@@ -16,7 +16,7 @@ public class FatorialEmLoop {
                 
                 resultado *= i;
 
-                System.out.println(i);
+                System.out.print(i+" x ");
 
             }
             return resultado;
@@ -28,7 +28,7 @@ public class FatorialEmLoop {
         Scanner scanner = new Scanner(System.in);
 
 
-        System.out.println("Digite um numero: ");
+        System.out.print("Digite um numero: ");
         long numero = scanner.nextLong();
 
         System.out.println("O fatorial de " + numero + " é: "+ fatorial(numero));

@@ -21,14 +21,14 @@ public class MaiorNumeroArray {
     }
     public static void main(String[] args) {
 
-        System.out.println("Digite quantos numeros deseja no array: ");
+        System.out.print("Digite quantos numeros deseja no array: ");
         int tamanhoArray = scanner.nextInt();
         
         int [] array = new int[tamanhoArray];
 
 
         for (int i = 0; i < array.length; i++){
-            System.out.println("Digite o " + (i+1) + "º número" + " que deseja inserir no array ");
+            System.out.print("Digite o " + (i+1) + "º número" + " que deseja inserir no array: ");
             int valoresArray = scanner.nextInt();
             array[i] = valoresArray;
         }
