@@ -13,8 +13,7 @@ public class MaiorNumeroArray {
                 
             if(array[i] > maiorNumero){
                 maiorNumero = array[i];
-                }
-                
+                }            
         }
         return maiorNumero;
 
