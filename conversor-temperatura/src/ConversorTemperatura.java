@@ -16,7 +16,7 @@ public class ConversorTemperatura {
     }
 
     public static double insiratemperatura(){
-        System.out.println("Agora digite a temperatura: ");
+        System.out.print("Agora digite a temperatura: ");
                 
         return  scanner.nextDouble();
 
