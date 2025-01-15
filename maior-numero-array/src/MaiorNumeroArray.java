@@ -6,7 +6,7 @@ public class MaiorNumeroArray {
     private static final Scanner scanner = new Scanner(System.in);
 
 
-    public static int MaiorValor(int [] array){
+    public static int maiorValor(int [] array){
         int maiorNumero = array[0];
 
         for (int i = 0; i < array.length; i++){
@@ -38,7 +38,7 @@ public class MaiorNumeroArray {
         System.out.println("Os arrays inseridos foram: " + dadosArray);
         
         System.out.println("----------------------------------------------");
-        System.out.println("O maior número do array é: " + MaiorValor(array));
+        System.out.println("O maior número do array é: " + maiorValor(array));
 
         scanner.close();
     }

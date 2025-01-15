@@ -5,7 +5,10 @@ public class fibonacciRecursivo {
     
     public static int gerarFibonacci(int num){
 
-        if (num <= 1){
+        if (num <= 0){
+            return 0;
+            }
+        else if (num <= 1){
             return 1;
         }
         else{
@@ -23,12 +26,12 @@ public static void main (String[] args) {
 
     System.out.print("Os primeiros " + num + " números da sequência de Fibonacci são:  ");
 
-    for (int i = 0; i <= (num) ; i++) { 
+    for (int i = 0; i < num ; i++) { 
         System.out.print(gerarFibonacci(i) + " + ");
         soma += gerarFibonacci(i);
 }
 
-    System.out.println(" A soma destes numeros são = " + (soma + 1) );
+    System.out.println(" A soma destes numeros são = " + (soma) );
 
     scanner.close();
 }
